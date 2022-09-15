@@ -1,0 +1,40 @@
+{
+    "title": "museum",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "full_name": "museum[name]",
+            "title": "name",
+            "attr": {
+                "maxlength": 255
+            },
+            "maxLength": 255,
+            "propertyOrder": 1
+        },
+        "address": {
+            "type": "string",
+            "full_name": "museum[address]",
+            "title": "address",
+            "attr": {
+                "maxlength": 255
+            },
+            "maxLength": 255,
+            "propertyOrder": 2
+        },
+        "type": {
+            "type": "string",
+            "full_name": "museum[type]",
+            "title": "type",
+            "attr": {
+                "maxlength": 255
+            },
+            "maxLength": 255,
+            "propertyOrder": 3
+        }
+    },
+    "required": [
+        "type"
+    ],
+    "full_name": "museum"
+}
